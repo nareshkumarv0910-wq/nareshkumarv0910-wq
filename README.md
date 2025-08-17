@@ -50,8 +50,10 @@ I turn raw data into meaningful insights and am now leveling up into **Data Engi
 
 ---
 
+
 ✨ *Every dataset has a story — I engineer the bridge between raw data and decision-making.*
 import matplotlib.pyplot as plt
+
 
 # Example sales trend
 sales = [100, 150, 200, 250, 300]
@@ -63,3 +65,43 @@ plt.xlabel("Month")
 plt.ylabel("Sales")
 plt.savefig("sales_dashboard.png")  # saves image
 plt.show()
+
+# 📊 Sales Dashboard Project
+
+✨ Every dataset has a story — I engineer the bridge between raw data and decision-making.  
+
+This project demonstrates how to create **interactive and professional dashboards** using **Python, Pandas, and Matplotlib**.  
+
+---
+
+## 🚀 Features
+- 📈 Monthly Sales Trend  
+- 🌍 Sales by Region  
+- 🥧 Revenue Distribution (Pie Chart)  
+- 🏆 Top Products by Sales  
+
+---
+
+## 📸 Dashboard Previews  
+
+**1. Monthly Sales Trend**  
+![Sales Trend](sales_trend.png)
+
+**2. Sales by Region**  
+![Sales by Region](sales_by_region.png)
+
+**3. Revenue Distribution**  
+![Revenue Distribution](revenue_distribution.png)
+
+**4. Top Products**  
+![Top Products](top_products.png)
+
+---
+
+## ⚙️ How to Run  
+Clone the repository and run the script:  
+
+```bash
+git clone https://github.com/nareshkumarv0910-wq/sales-dashboard.git
+cd sales-dashboard
+python dashboard.py
