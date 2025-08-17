@@ -51,3 +51,15 @@ I turn raw data into meaningful insights and am now leveling up into **Data Engi
 ---
 
 ✨ *Every dataset has a story — I engineer the bridge between raw data and decision-making.*
+import matplotlib.pyplot as plt
+
+# Example sales trend
+sales = [100, 150, 200, 250, 300]
+months = ["Jan", "Feb", "Mar", "Apr", "May"]
+
+plt.plot(months, sales, marker="o")
+plt.title("Monthly Sales Trend")
+plt.xlabel("Month")
+plt.ylabel("Sales")
+plt.savefig("sales_dashboard.png")  # saves image
+plt.show()
